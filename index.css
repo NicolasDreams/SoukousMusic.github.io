@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "Rubik";
+    src: local(fonts/Rubik-Medium);
+}
+
+p, h1, h2, h3, li{
+    font-family: "Rubik";
+    color: white;
+}
+
+#intro {
+    background: rgb(20,20,20);
+    height: 385px;
+}
+
+body {
+    background: rgb(43,43,43);
+    max-width: 100%;
+    max-height: 100%;
+    padding: 0;
+}
+
+.intro {
+    max-width: 20%;
+    font-size: 16pt;
+    position: absolute;
+    right: 80px;
+    top: 100px;
+}
+
+.introTitle {
+    font-size: 32pt;
+    right: 150px;
+    text-align: center;
+    top: 20px
+}
+
+.sp1 {
+    position: fixed;
+    width: 99%;
+    height: 99%;
+    z-index: -1;
+    top: 300px;
+}
+
+.sp2 {
+    position: absolute;
+}
+
+.FLuambo {
+    left: 470px;
+    position: absolute;
+    height: 300px;
+    width: 230px;
+}
+
+.video1 {
+    position: absolute;
+    left: 620px;
+    aspect-ratio: 16/9;
+    width: 100%;
+}
