@@ -186,12 +186,42 @@ body {
     background: rgb(20,20,20);
     position: absolute;
     top: 4000px;
+    max-width: 100%;
 }
 
 .sp3 {
     position: absolute;
     z-index: -1;
-    max-width: 1080px;
+    max-width: 99%;
     max-height: 99%;
     align-items: center;
+    scale: 2.2;
+    left: 500px;
+    top: 1000px;
+}
+
+.notaTitle {
+    text-align: center;
+    font-size: 48pt;
+}
+
+.notable {
+    text-align: center;
+    font-size: 32pt;
+    text-align: center;
+}
+
+.Luambo {
+    text-align: left;
+    max-width: 48%;
+    font-size: 24pt;
+    position: absolute;
+}
+
+.sam {
+    text-align: right;
+    position: absolute;
+    max-width: 48%;
+    font-size: 24pt;
+    right: 2%
 }
